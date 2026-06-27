@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="21.3" fill="#FFD700"/>
+  <rect y="21.3" width="64" height="21.4" fill="#003087"/>
+  <rect y="42.7" width="64" height="21.3" fill="#CF142B"/>
+  <g transform="translate(32,32)">
+    <!-- 8 Stars of the Venezuelan flag in arc -->
+    <g id="stars">
+      <circle cx="0" cy="-12" r="1.8" fill="#FFFFFF"/>
+      <circle cx="6.9" cy="-9.7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="11.1" cy="-3.7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="11.1" cy="3.7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="6.9" cy="9.7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="0" cy="12" r="1.8" fill="#FFFFFF"/>
+      <circle cx="-6.9" cy="9.7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="-11.1" cy="3.7" r="1.8" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>
