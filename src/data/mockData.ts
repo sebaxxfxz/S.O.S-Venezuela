@@ -1,4 +1,4 @@
-import type { MissingPerson, NewsPost, AidPoint } from './types';
+import type { MissingPerson, NewsPost, AidPoint } from '../types';
 
 export const mockMissingPersons: MissingPerson[] = [
   {

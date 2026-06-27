@@ -433,13 +433,13 @@ export default function NewsPage() {
                           placeholder="Tu nombre..."
                           className="w-full sm:w-1/3 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-surface-dark-card text-xs outline-none focus:border-sos-blue text-gray-900 dark:text-white"
                         />
-                        <input
+                        <textarea
                           ref={replyTextAreaRef}
-                          type="text"
                           value={commentContent}
                           onChange={(e) => setCommentContent(e.target.value)}
                           placeholder="Escribe tu respuesta..."
-                          className="flex-1 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-surface-dark-card text-xs outline-none focus:border-sos-blue text-gray-900 dark:text-white"
+                          className="flex-1 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-surface-dark-card text-xs outline-none focus:border-sos-blue text-gray-900 dark:text-white resize-none"
+                          rows={1}
                         />
                         <button
                           onClick={() => handleSendComment(post.id)}
